@@ -21,5 +21,8 @@ var phrase = 'I don\'t like the Alliance' // \ can be used to tell the machine t
 
 //Arrays
 
-var HordeRaces = ["Orc", "Undead", "Tauren", "Goblin", "Blood Elf", "Pandaren", "Troll" ];
+var HordeRaces = ["Orc", "Undead", "Tauren", "Goblin", "Blood Elf", "Pandaren", "Troll" ]; //0,1,2,3,etc.
 console.log(HordeRaces[2]);
+/* HordeRaces[1] = "Sha"; 
+ * The statement above can be used to change the Undead into Sha.
+ */
