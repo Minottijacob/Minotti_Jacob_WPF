@@ -16,3 +16,16 @@ console.log(name);
 
 //alerting user
 alert("Welcome "+ name +"! Let's figure out how old you are!");
+
+//ask user the year that they were born in
+var yearBorn = prompt("What year were you born?");
+console.log(yearBorn);
+
+var currentYear= 2014;
+
+//Calculating the age
+var age = currentYear - yearBorn;
+console.log(age);
+
+//alert the user's age
+alert(name+" you are "+ age+".");
