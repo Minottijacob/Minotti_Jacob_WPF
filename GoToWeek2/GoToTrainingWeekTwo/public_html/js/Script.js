@@ -29,3 +29,20 @@ console.log(age);
 
 //alert the user's age
 alert(name+" you are "+ age+".");
+
+//How old the user will be in the future
+//Ask the user how many years in the future
+var yearsMore = prompt("How many years should I look into the future?");
+console.log(yearsMore);
+console.log(age);
+
+//Calculate the future age
+var futureAge = age + Number(yearsMore);
+console.log(futureAge);
+
+//Casting` treating one variable type as another
+// Number(); put variable inside of ()
+
+
+alert(name+" you will be "+futureAge +" in "+yearsMore+ " more years!");
+
