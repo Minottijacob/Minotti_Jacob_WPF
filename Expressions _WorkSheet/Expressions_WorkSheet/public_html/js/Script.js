@@ -8,5 +8,9 @@
 
 //Setting up Variables
 var dogYears = 7;
-var humanYears = 1;
+var humanYears = prompt("How old is Sparky in human years?");
 var totalDogYears= dogYears * humanYears;
+
+//Alerting user of Sparky's age in Dog years
+
+alert("Hello Friend! According to my calculations, Sparky is " + humanYears + " which is " + totalDogYears + " in dog years!");
