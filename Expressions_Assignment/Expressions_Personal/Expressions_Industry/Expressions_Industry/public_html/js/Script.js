@@ -15,3 +15,4 @@ var hired = prompt ("Please enter how many developers you've hired in the last c
 var addition = total + Number(hired);
 var average = addition/8;
 console.log (average);
+alert("The average amount of developers on a project is " + average + ".");
