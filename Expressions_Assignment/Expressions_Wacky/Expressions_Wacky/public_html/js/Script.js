@@ -16,5 +16,9 @@ if (limes === "Yes") {
    alert ("So I'll put " + limesInCoconut + " limes in the coconut before I shake it all up!");
    var sharingIsCaring = prompt ("How many people are you going to share this beverage with?");
    var totalLimes = limesInCoconut * sharingIsCaring;
-   
+   var totalCoconuts = limesInCoconut * 1;
+   alert ("You are going to need " + totalLimes + " and " + totalCoconuts + " before you can drink it all up with your friends!");
+}
+else {
+    alert ("You should probably start researching then!");
 }
