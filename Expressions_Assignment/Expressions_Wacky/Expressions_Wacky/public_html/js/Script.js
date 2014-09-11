@@ -13,4 +13,8 @@ var limes = prompt ("Do you know how many limes are in the coconut before you sh
 // If Else Statement
 if (limes === "Yes") {
    var limesInCoconut = prompt ("You do! How many?");
+   alert ("So I'll put " + limesInCoconut + " limes in the coconut before I shake it all up!");
+   var sharingIsCaring = prompt ("How many people are you going to share this beverage with?");
+   var totalLimes = limesInCoconut * sharingIsCaring;
+   
 }
