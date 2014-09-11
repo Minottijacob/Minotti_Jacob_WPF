@@ -11,3 +11,7 @@ Expressions: Industy
 var currentDevTeams = [4, 6, 4, 8, 3, 5, 6];
 var total = currentDevTeams[0] + currentDevTeams[1] + currentDevTeams[2] + currentDevTeams[3] + currentDevTeams [4] + currentDevTeams[5] + currentDevTeams[6];
 console.log(total);
+var hired = prompt ("Please enter how many developers you've hired in the last couple of months.");
+var addition = total + Number(hired);
+var average = addition/8;
+console.log (average);
