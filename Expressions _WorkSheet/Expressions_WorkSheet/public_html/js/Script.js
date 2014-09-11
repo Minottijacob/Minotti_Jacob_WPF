@@ -23,3 +23,6 @@ var slicePerPerson = pizzaOrdered * sliceOfPizza/partyPeople;
 //Now solving problem based off of numbers imputed by user
 
 alert("Greetings, Pizzabot. According to my calculations you should get " + slicePerPerson +" pieces of pizza at the party!");
+
+//Shopping List average. Setting up Variables
+var shoppingAverage = [32.56, 37.52, 41.03, 34.01, 33.76];
