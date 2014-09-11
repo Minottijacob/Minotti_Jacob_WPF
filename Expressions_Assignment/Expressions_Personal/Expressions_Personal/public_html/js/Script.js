@@ -14,3 +14,4 @@ var hoursDevoted = prompt("How many hours do you plan on raiding this week?");
 var daysWasted = raidDays *hoursDevoted/24;
 console.log(daysWasted);
 //Alerting user their answer
+alert("Based off of the numbers you gave me. You plan on raiding " + hoursDevoted + " hours each day. For " + raidDays + " days. So in total, you're wasting " + daysWasted + " of your life.");
