@@ -5,4 +5,12 @@ Conditionals: Wacky
  */
 
 //Testing for proper intergration with the HTML
-alert ("Throm-Ka!");
+//alert ("Throm-Ka!");
+
+//Dancing Bananas
+
+var userIsBananas = prompt ("Do you like bananas? Yes or No?");
+
+if (userIsBananas === "Yes") {
+    
+}
