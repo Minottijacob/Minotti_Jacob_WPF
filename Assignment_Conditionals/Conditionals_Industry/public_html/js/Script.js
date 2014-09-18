@@ -15,9 +15,9 @@ var vacation;
 
 //Now evaluating to see if this lucky person can go on vacation or not.
 
-//vacation= (coworkersOnVacation > coworkers - 3) ? "Yes! You may go on vacation." : "I'm sorry you may not go on vacation this week.";
+vacation= (coworkersOnVacation > coworkers - 3) ? "I'm sorry but you can not go on vacation this week."  : "Yes! You may go on vacation.";
 
 //Now alerting user their response
 alert (vacation);
 
-console.log (coworkersOnVacation > coworkers - 3);
+//console.log (coworkersOnVacation > coworkers - 3);
