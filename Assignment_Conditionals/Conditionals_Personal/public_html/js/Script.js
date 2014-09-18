@@ -10,7 +10,7 @@ Conditionals: Personal
 
 var userInput = prompt ("Do you have assignments due this week? Please answer Yes or No.");
 
-/*if (userInput === "Yes"){
+if (userInput === "Yes"){
     alert ("You should probably work on your assignments.");
   
 }
@@ -30,4 +30,4 @@ else {
         alert ("You've completed everything you needed to get done with today. You now may go and play some World of Warcraft.");
     }
     
-*/ 
+}
