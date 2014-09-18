@@ -8,12 +8,26 @@ Conditionals: Personal
 
 //Homework or World of Warcraft
 
-var userInput = prompt ("Do you have assignments due this week?");
+var userInput = prompt ("Do you have assignments due this week? Please answer Yes or No.");
 
-if (userInput === "Yes"){
+/*if (userInput === "Yes"){
     alert ("You should probably work on your assignments.");
   
 }
-else {
-    var userElseInput = prompt 
+else if (userInput === "") {
+         alert ("I'm sorry. I didn't see a response.");
+         
 }
+else {
+    var userElseInput = prompt ("Do you have any other responsibilities today? Please answer Yes or No.");
+    if (userElseInput === "Yes"){
+        alert ("I'm sorry you should take care of those before playing video games.");
+    }
+    else if (userElseInput === "") {
+        alert ("I'm sorry. I didn't see a response.");
+    }
+    else {
+        alert ("You've completed everything you needed to get done with today. You now may go and play some World of Warcraft.");
+    }
+    
+*/ 
