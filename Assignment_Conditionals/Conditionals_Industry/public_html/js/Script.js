@@ -8,6 +8,14 @@ Conditionals: Industry
 
 //Employees and vacation time
 
-var coworkers = prompt ("How many other coworkers do you have in your department?");
+var coworkers = prompt ("How many other coworkers do you have in your department? (minimum of 5)");
 var coworkersOnVacation = prompt ("How many coworkers are on vacation?");
+var vacation;
+
+//Now evaluating to see if this lucky person can go on vacation or not.
+
+vacation= (coworkers >= coworkersOnVacation) ? "Yes! You may go on vacation." : "I'm sorry you may not go on vacation this week.";
+
+//Now alerting user their response
+alert (vacation);
 
