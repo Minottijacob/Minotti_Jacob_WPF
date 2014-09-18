@@ -4,5 +4,4 @@ Conditionals Worksheet
 Sept. 18th, 2014
  */
 
-
-s
+alert ("Lok'Tar Ogar, friend!");
