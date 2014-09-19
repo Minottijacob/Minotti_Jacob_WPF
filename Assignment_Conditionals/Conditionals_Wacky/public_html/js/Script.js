@@ -16,6 +16,7 @@ if (userIsBananas === "Yes") {
     
     // setting up for another conditional
     if (bananaDance === "Yes") {
+        alert ("Lets all do the banana dance! 。(⌒∇⌒。)	"); 
         
         
     }
@@ -23,7 +24,18 @@ if (userIsBananas === "Yes") {
         alert ("I'm sorry. I didn't see a response.");
     }
     else {
-        var wantToKnow
+        var wantToKnow = prompt ("Would you like to know?");
+        
+        //Setting up for conditional for variable wantToKnow
+        if (wantToKnow === "Yes") {
+            alert ("It's easy! Just look at the emoji to do the banana dance! 。(⌒∇⌒。)	");
+        }
+        else if (wantToKnow === "") {
+            alert ("I'm sorry. I didn't see a response.");
+        }
+        else {
+            alert ("That's lame! The Banana Dance is really cool!");
+        }
     }
     
 }
